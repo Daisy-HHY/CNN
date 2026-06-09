@@ -1,0 +1,4 @@
+temperature,alpha,best_test_acc,checkpoint,log_file
+2.0,0.7,67.99,checkpoints\student_distill_T2.0_a0.7_best.pth,outputs\student_distill_T2.0_a0.7_log.csv
+4.0,0.7,68.26,checkpoints\student_distill_T4.0_a0.7_best.pth,outputs\student_distill_T4.0_a0.7_log.csv
+8.0,0.7,67.64,checkpoints\student_distill_T8.0_a0.7_best.pth,outputs\student_distill_T8.0_a0.7_log.csv
