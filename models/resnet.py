@@ -2,11 +2,11 @@
 教师模型: TeacherCNN (CPU优化版)
 
 专门为CPU训练设计的轻量CNN，在保持良好分类性能的同时大幅降低训练时间。
-使用4层卷积 + 全局平均池化，避免ResNet残差连接的计算开销。
+使用6个卷积层（Block1/2各2层，Block3/4各1层）+ 全局平均池化。
 
-参数量: ~930K
-预期训练速度: ~2-3 min/epoch (CPU)
-预期准确率: 80-88% (CIFAR-10, 30 epochs)
+参数量: 1,741,770 (1.74M)
+实际训练速度: ~3 min/epoch (CPU)
+实际准确率: 64.72% (CIFAR-10, 20 epochs, CPU)
 """
 import torch
 import torch.nn as nn
